@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 #Dow Jones 30 stocks
 stock_data = {}
-YEARS_FROM_PRESENT = 30
+YEARS_FROM_PRESENT = 10
 dow_30 = ['AAPL', 'AMGN', 'AXP', 'BA', 'CAT', 'CRM', 'CSCO', 'CVX', 'DIS',  'DOW', 
           'GS', 'HD', 'HON', 'IBM', 'INTC', 'JNJ', 'JPM', 'KO', 'MCD', 'MMM', 
           'MRK', 'MSFT', 'NKE', 'PG', 'TRV', 'UNH', 'V', 'VZ', 'WBA', 'WMT']
