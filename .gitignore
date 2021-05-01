@@ -1,6 +1,7 @@
 #Results Folders
 results/
 env/
+tensorboard_log/
 
 #Data
 *.csv
