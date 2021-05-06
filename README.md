@@ -38,8 +38,8 @@ Currently this project exists as a Jupyter notebook that is easy to follow along
   4. TD3: Twin Delayed Deep Deterministic Policy Gradients 
 
 ### Acknowledements 
-![image](https://user-images.githubusercontent.com/13965644/117239843-5ed38000-ade4-11eb-9fbc-b4674d887128.png)
-FinRL is an open source library that provides practitioners a unified framework for pipeline strategy development. **In reinforcement learning (or Deep RL), an agent learns by continuously interacting with an environment, in a trial-and-error manner, making sequential decisions under uncertainty and achieving a balance between exploration and exploitation.** The open source community **AI4Finance** (to efficiently automate trading) provides educational resources about deep reinforcement learning (DRL) in quantitative finance. 
+<img src="https://user-images.githubusercontent.com/13965644/117239843-5ed38000-ade4-11eb-9fbc-b4674d887128.png" width="512" height="128">
+[FinRL](http://finrl.org/index.html) is an open source library that provides practitioners a unified framework for pipeline strategy development. **In reinforcement learning (or Deep RL), an agent learns by continuously interacting with an environment, in a trial-and-error manner, making sequential decisions under uncertainty and achieving a balance between exploration and exploitation.** The open source community **AI4Finance** (to efficiently automate trading) provides educational resources about deep reinforcement learning (DRL) in quantitative finance. 
 
 As someone who was new to using machine learning in general this library became super useful for simplifying the process of trying to build out a fully functioning agent and envrironment from scratch. Thanks to all the tutorials available through FinRL I was able to learn how to build an agent and environment and tune its hyper parameters without having to worry if I was doing something wrong or uneccessary. FinRL serves as a great starting point for students seeking to learn how to train a stock trading AI in several different trading environments while also offering a multitude of agents that employ different ML strategies!
 
