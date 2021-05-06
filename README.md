@@ -37,7 +37,13 @@ Currently this project exists as a Jupyter notebook that is easy to follow along
   3. SAC: Soft Actor-Critic
   4. TD3: Twin Delayed Deep Deterministic Policy Gradients 
 
-### TODO Improvements ###
+### Acknowledements 
+![image](https://user-images.githubusercontent.com/13965644/117239843-5ed38000-ade4-11eb-9fbc-b4674d887128.png)
+FinRL is an open source library that provides practitioners a unified framework for pipeline strategy development. **In reinforcement learning (or Deep RL), an agent learns by continuously interacting with an environment, in a trial-and-error manner, making sequential decisions under uncertainty and achieving a balance between exploration and exploitation.** The open source community **AI4Finance** (to efficiently automate trading) provides educational resources about deep reinforcement learning (DRL) in quantitative finance. 
+
+As someone who was new to using machine learning in general this library became super useful for simplifying the process of trying to build out a fully functioning agent and envrironment from scratch. Thanks to all the tutorials available through FinRL I was able to learn how to build an agent and environment and tune its hyper parameters without having to worry if I was doing something wrong or uneccessary. FinRL serves as a great starting point for students seeking to learn how to train a stock trading AI in several different trading environments while also offering a multitude of agents that employ different ML strategies!
+
+### TODO Improvements 
 1. Replace FinRL with custom built solutions - FinRL is meant to be educational and has many videos and tutorials to make it easy to use and accessible, but it is limited to the models, environments and agents that are included with it. Thus, it is not very customizable. Originally my project had a custom built agent and environment for single stock trading without any budget implemented, but I was unsuccessful and getting it to be reliable and the results it outputted were less useful than what I can get with FinRL
 2. Sentiment analysis - One project that I thought was interesting but didn't have enough time for was including sentiment analysis in the algorithm. By utilizing sentiment indicators it is also possible to help predict a stocks price movent that would defy tradiontional movement patterns. 
 3. Better way to train hyperparameters - My current method for training the algorithm is by using a guess and check method and sometimes it can be difficult to determine when certain changes have made enough a difference. The backtesting plots and graphs can be difficult to interpret if you don't know what it is you looking at.
