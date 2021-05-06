@@ -1,6 +1,6 @@
 # Portfolio-Pal
 
-## Overview
+### Overview ###
 Portfolio-Pal is a research project that I took on to determine if Reinforcement Learning could be a useful tool for training an AI to learn how to trade stocks effectively. Along the way I realized that I didn't know much about the stock market so I tried to incorperate a lot of data exploration and data analysis tools into my project to help me learn more about the stock market, but also to help me visualize the trends in the data I aquired. Many humans have tried their hand at trading in the stock market and failed due to the highly stochastic and unpredictable nature associated with the fluctations of a stock's price. This project aims to be an educational tool for anyone who is looking to get into programming their own stock trading bots or just learn more about stock trading in general.
 
 ### Experience Gained ###
@@ -45,7 +45,7 @@ Currently this project exists as a Jupyter notebook that is easy to follow along
 5. Trading Fees - Currently I only had a flat trading fee of $0.01 for each trade, but there's so much more involved with the costs associated with making a trade such as taxes and fees per trade, available trading times, and trading speed that exist in real world scenarios.
 6. Simplification and possible GUI - Currently this project is meant for data scientists and those who are comfortable programming and installing packages in a python environment. If this were to become a tool in the future it would need to be built in a way that is more accessible to a general user.
 
-### Recommended Reading and Resources
+## Recommended Reading and Resources
 - [FinRL](https://arxiv.org/abs/2011.09607): A Deep Reinforcement Learning Library for Automated Stock Trading in Quantitative Finance
 - [The Intelligent Investor](https://www.amazon.com/dp/B000FC12C8?tag=aboutcom02thebalance-20&linkCode=ogi&th=1&psc=1&ascsubtag=4171823%7Cn51c19562956647b8b4e53e8e4ef49f4b03)
 - [Machine Learning for Finance](https://www.amazon.com/dp/1789136369)
