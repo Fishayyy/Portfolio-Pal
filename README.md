@@ -31,7 +31,11 @@ Portfolio-Pal is a research project that I took on to determine if Reinforcement
 - After that it's as simple as opening up Portfolio-Pal.ipynb in Jupyter Notebook and following along with the guided instructions.
 
 ## Current State
-Currently this project exists as a Jupyter notebook that is easy to follow along with and incorperates different steps of having the user to explore their stock options then eventually transitioning into an AI simulating a stock portfolio. As is, all trade simulations are theoretical and it is not necisarrily meant to be used as something you could follow along with and make trades every day. You can however analyse the predictions that are outputed based on a previous days data to see how the AI would try to perform the next day.
+Currently this project exists as a Jupyter notebook that is easy to follow along with and incorperates different steps of having the user to explore their stock options then eventually transitioning into an AI simulating a stock portfolio. As is, all trade simulations are theoretical and it is not necisarrily meant to be used as something you could follow along with and make trades every day. You can however analyse the predictions that are outputed based on a previous days data to see how the AI would try to perform the next day. The 4 ML we chose to simulate with FinRL libraries are:
+  1. A2C: Advantage Actor Critic
+  2. PPO: Proximal Policy Optimization
+  3. SAC: Soft Actor-Critic
+  4. TD3: Twin Delayed Deep Deterministic Policy Gradients 
 
 ### TODO Improvements ###
 1. Replace FinRL with custom built solutions - FinRL is meant to be educational and has many videos and tutorials to make it easy to use and accessible, but it is limited to the models, environments and agents that are included with it. Thus, it is not very customizable. Originally my project had a custom built agent and environment for single stock trading without any budget implemented, but I was unsuccessful and getting it to be reliable and the results it outputted were less useful than what I can get with FinRL
@@ -41,4 +45,9 @@ Currently this project exists as a Jupyter notebook that is easy to follow along
 5. Trading Fees - Currently I only had a flat trading fee of $0.01 for each trade, but there's so much more involved with the costs associated with making a trade such as taxes and fees per trade, available trading times, and trading speed that exist in real world scenarios.
 6. Simplification and possible GUI - Currently this project is meant for data scientists and those who are comfortable programming and installing packages in a python environment. If this were to become a tool in the future it would need to be built in a way that is more accessible to a general user.
 
-### Recommended Reading and Resources ###
+### Recommended Reading and Resources
+- [FinRL](https://arxiv.org/abs/2011.09607): A Deep Reinforcement Learning Library for Automated Stock Trading in Quantitative Finance
+- [The Intelligent Investor](https://www.amazon.com/dp/B000FC12C8?tag=aboutcom02thebalance-20&linkCode=ogi&th=1&psc=1&ascsubtag=4171823%7Cn51c19562956647b8b4e53e8e4ef49f4b03)
+- [Machine Learning for Finance](https://www.amazon.com/dp/1789136369)
+- [Deep Reinforcement Learning Hands-On](https://www.amazon.com/Deep-Reinforcement-Learning-Hands-optimization/dp/1838826998)
+
