@@ -11,7 +11,7 @@ Portfolio-Pal is a research project that I took on to determine if Reinforcement
 * Several specialized stock APIs through different stages
 * Stock market and Investing knowledge
 
-### Prerequisites
+## Prerequisites 
 - Anaconda (Recommended)
   - Python 3
   - numpy
