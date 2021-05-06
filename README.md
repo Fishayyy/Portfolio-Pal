@@ -37,13 +37,6 @@ Currently this project exists as a Jupyter notebook that is easy to follow along
   3. SAC: Soft Actor-Critic
   4. TD3: Twin Delayed Deep Deterministic Policy Gradients 
 
-### Acknowledements 
-<img src="https://user-images.githubusercontent.com/13965644/117239843-5ed38000-ade4-11eb-9fbc-b4674d887128.png" width="512" height="128">
-Site: http://finrl.org/index.html
-FinRL is an open source library that provides practitioners a unified framework for pipeline strategy development. **In reinforcement learning (or Deep RL), an agent learns by continuously interacting with an environment, in a trial-and-error manner, making sequential decisions under uncertainty and achieving a balance between exploration and exploitation.** The open source community **AI4Finance** (to efficiently automate trading) provides educational resources about deep reinforcement learning (DRL) in quantitative finance. 
-
-As someone who was new to using machine learning in general this library became super useful for simplifying the process of trying to build out a fully functioning agent and envrironment from scratch. Thanks to all the tutorials available through FinRL I was able to learn how to build an agent and environment and tune its hyper parameters without having to worry if I was doing something wrong or uneccessary. FinRL serves as a great starting point for students seeking to learn how to train a stock trading AI in several different trading environments while also offering a multitude of agents that employ different ML strategies!
-
 ### TODO Improvements 
 1. Replace FinRL with custom built solutions - FinRL is meant to be educational and has many videos and tutorials to make it easy to use and accessible, but it is limited to the models, environments and agents that are included with it. Thus, it is not very customizable. Originally my project had a custom built agent and environment for single stock trading without any budget implemented, but I was unsuccessful and getting it to be reliable and the results it outputted were less useful than what I can get with FinRL
 2. Sentiment analysis - One project that I thought was interesting but didn't have enough time for was including sentiment analysis in the algorithm. By utilizing sentiment indicators it is also possible to help predict a stocks price movent that would defy tradiontional movement patterns. 
@@ -51,6 +44,18 @@ As someone who was new to using machine learning in general this library became 
 4. Inclusion of better features - Since I'm a computer scientist and not necissarily a financial expert there could be other features out there that I had not considered. I tried to keep my inputs relatively simple since I already had such a large network to train. Another possible consideration could be performing more indepth feature analysis. This would also mean we could build in more charts and graphs to analyze!
 5. Trading Fees - Currently I only had a flat trading fee of $0.01 for each trade, but there's so much more involved with the costs associated with making a trade such as taxes and fees per trade, available trading times, and trading speed that exist in real world scenarios.
 6. Simplification and possible GUI - Currently this project is meant for data scientists and those who are comfortable programming and installing packages in a python environment. If this were to become a tool in the future it would need to be built in a way that is more accessible to a general user.
+
+## Acknowledements 
+<img src="https://user-images.githubusercontent.com/13965644/117239843-5ed38000-ade4-11eb-9fbc-b4674d887128.png" width="512" height="128">
+
+Site: http://finrl.org/index.html
+
+
+FinRL is an open source library that provides practitioners a unified framework for pipeline strategy development. **In reinforcement learning (or Deep RL), an agent learns by continuously interacting with an environment, in a trial-and-error manner, making sequential decisions under uncertainty and achieving a balance between exploration and exploitation.** The open source community **AI4Finance** (to efficiently automate trading) provides educational resources about deep reinforcement learning (DRL) in quantitative finance. 
+
+
+As someone who was new to using machine learning in general this library became super useful for simplifying the process of trying to build out a fully functioning agent and envrironment from scratch. Thanks to all the tutorials available through FinRL I was able to learn how to build an agent and environment and tune its hyper parameters without having to worry if I was doing something wrong or uneccessary. FinRL serves as a great starting point for students seeking to learn how to train a stock trading AI in several different trading environments while also offering a multitude of agents that employ different ML strategies!
+
 
 ## Recommended Reading and Resources
 - [FinRL](https://arxiv.org/abs/2011.09607): A Deep Reinforcement Learning Library for Automated Stock Trading in Quantitative Finance
