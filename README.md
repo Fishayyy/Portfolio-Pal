@@ -44,6 +44,7 @@ Currently this project exists as a Jupyter notebook that is easy to follow along
 4. Inclusion of better features - Since I'm a computer scientist and not necissarily a financial expert there could be other features out there that I had not considered. I tried to keep my inputs relatively simple since I already had such a large network to train. Another possible consideration could be performing more indepth feature analysis. This would also mean we could build in more charts and graphs to analyze!
 5. Trading Fees - Currently I only had a flat trading fee of $0.01 for each trade, but there's so much more involved with the costs associated with making a trade such as taxes and fees per trade, available trading times, and trading speed that exist in real world scenarios.
 6. Simplification and possible GUI - Currently this project is meant for data scientists and those who are comfortable programming and installing packages in a python environment. If this were to become a tool in the future it would need to be built in a way that is more accessible to a general user.
+7. Load saved models - Currently I have built out a rudamentary way to save your best trained models, but I have not built in a way to load them in the basic environment. All I did was test my saved ones in a separate environment.
 
 ## Acknowledements 
 <img src="https://user-images.githubusercontent.com/13965644/117239843-5ed38000-ade4-11eb-9fbc-b4674d887128.png" width="512" height="128">
